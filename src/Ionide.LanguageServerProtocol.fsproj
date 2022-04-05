@@ -16,6 +16,8 @@
       <Paket>True</Paket>
       <Link>paket-files/FsLibLog.fs</Link>
     </Compile>
+    <Compile Include="Types.fs"/>
+    <Compile Include="Converters.fs" />
     <Compile Include="LanguageServerProtocol.fs" />
     <None Include="../README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
